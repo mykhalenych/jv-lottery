@@ -7,6 +7,6 @@ public class Lottery {
     private static final Random randomService = new Random();
 
     public Ball getRandomBall() {
-        return new Ball(colorService.getRandomColor(), randomService.nextInt(10 + 1));
+        return new Ball(colorService.getRandomColor(), randomService.nextInt(100 + 1));
     }
 }
